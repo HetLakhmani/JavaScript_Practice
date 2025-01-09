@@ -52,7 +52,7 @@ users[1].email
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('blahBlah'));
 
 
 const course = {
@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course//this is called destructuring of i=objects means likhe ki mehnat kum krneka shortcut 
 
 // console.log(courseInstructor);
 console.log(instructor);
